@@ -1,0 +1,158 @@
+/* Base Styles */
+.new {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .head {
+    width: 90%; 
+    max-width: 898px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .head h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3rem; 
+    line-height: 1.5;
+    color: #1e293b;
+    margin: 0;
+  }
+  
+  .head h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #94a3b8;
+    margin: 0;
+  }
+  
+  .frame83 {
+    width: 90%;
+    max-width: 1240px;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 60px auto 0 auto;
+    padding: 0;
+  }
+  
+  .frame81,
+  .frame82 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .frame81-image,
+  .frame82-image {
+    width: 100%; 
+    max-width: 400px;
+    height: auto; 
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .frame81-paragraph,
+  .frame82-paragraph {
+    width: 100%; 
+    max-width: 690px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.4;
+    text-align: justify;
+    color: #475569;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 1024px) {
+    .head h1 {
+      font-size: 2.5rem; 
+    }
+  
+    .head h4 {
+      font-size: 0.95rem;
+    }
+  
+    .frame81,
+    .frame82 {
+      gap: 30px; 
+    }
+  
+    .frame81-paragraph,
+    .frame82-paragraph {
+      font-size: 0.9rem;
+      line-height: 1.6; 
+    }
+  
+    .frame81-image,
+    .frame82-image {
+      max-width: 350px; /* Scale down images */
+    }
+  }
+  
+  /* For mobile devices (max-width: 768px) */
+  @media (max-width: 768px) {
+    .head h1 {
+      font-size: 2rem; /* Further reduce heading size */
+      line-height: 1.4;
+    }
+  
+    .head h4 {
+      font-size: 0.85rem;
+    }
+  
+    .frame81,
+    .frame82 {
+      flex-direction: column; /* Stack content vertically */
+      gap: 20px; /* Reduce gap further */
+    }
+  
+    .frame81-paragraph,
+    .frame82-paragraph {
+      font-size: 0.85rem; /* Smaller font size */
+      text-align: left; /* Align text to the left for readability */
+    }
+  
+    .frame81-image,
+    .frame82-image {
+      width: 100%; /* Full-width images */
+      max-width: none; 
+    }
+  }
+  
+  /* For small mobile devices (max-width: 480px) */
+  @media (max-width: 480px) {
+    .head h1 {
+      font-size: 1.8rem;
+    }
+  
+    .head h4 {
+      font-size: 0.8rem;
+    }
+  
+    .frame81-paragraph,
+    .frame82-paragraph {
+      font-size: 0.75rem;
+      line-height: 1.5;
+    }
+  
+    .frame81,
+    .frame82 {
+      gap: 15px; 
+    }
+  }
+  

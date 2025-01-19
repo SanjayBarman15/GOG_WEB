@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  height: 592px;
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  color: #ffffff;
+  position: relative;
+  align-items: center; 
+}
+
+.blur-effect {
+  position: absolute;
+  top: -111px; 
+  left: -150px; 
+  z-index: 0; 
+  width: 600px; 
+  height: 700px; 
+  background-image: url("../../public/assets/Images/Ellipse_3.png"); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  opacity: 1; 
+}
+
+.head-5 {
+  text-align: left;
+  margin-top: 59px;
+  width: 601px;
+  height: 72px; 
+}
+
+.head-5 h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  text-align: left; 
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.frame100 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-top: 110px;
+  width: 100%; 
+  height: 260px; 
+  gap: 60px; 
+  opacity: 1; 
+  align-items: center; 
+  justify-content: space-between; 
+}
+
+.component16,
+.component17 {
+  width: 100%; 
+  text-align: center;
+  display: flex;
+  gap: 50px;
+  height: 100px;
+}
+.img_group {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+@keyframes scrollLogos {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.img_group {
+  animation: scrollLogos 20s linear infinite;
+}
