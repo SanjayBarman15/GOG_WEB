@@ -11,27 +11,27 @@ body {
   background-color: #0f172a;
   color: #ffffff;
   position: relative;
-  align-items: center; 
+  align-items: center;
 }
 
 .blur-effect {
   position: absolute;
-  top: -111px; 
-  left: -150px; 
-  z-index: 0; 
-  width: 600px; 
-  height: 700px; 
-  background-image: url("../../public/assets/Images/Ellipse_3.png"); 
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  opacity: 1; 
+  top: -111px;
+  left: -150px;
+  z-index: 0;
+  width: 600px;
+  height: 700px;
+  background-image: url("../../public/assets/Images/Ellipse_3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
 }
 
 .head-5 {
   text-align: left;
   margin-top: 59px;
   width: 601px;
-  height: 72px; 
+  height: 72px;
 }
 
 .head-5 h1 {
@@ -39,7 +39,7 @@ body {
   font-size: 48px;
   font-weight: 600;
   line-height: 72px;
-  text-align: left; 
+  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #ffffff;
@@ -50,17 +50,17 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 110px;
-  width: 100%; 
-  height: 260px; 
-  gap: 60px; 
-  opacity: 1; 
-  align-items: center; 
-  justify-content: space-between; 
+  width: 100%;
+  height: 260px;
+  gap: 60px;
+  opacity: 1;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .component16,
 .component17 {
-  width: 100%; 
+  width: 100%;
   text-align: center;
   display: flex;
   gap: 50px;
@@ -82,5 +82,87 @@ body {
 }
 
 .img_group {
-  animation: scrollLogos 90s linear infinite;
+  animation: scrollLogos 20s linear infinite;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    background-color: #0f172a;
+    color: #ffffff;
+    position: relative;
+    align-items: center;
+  }
+  .blur-effect {
+    top: -50px;
+    left: -100px;
+    width: 400px;
+    height: 600px;
+  }
+
+  .head-5 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .frame100 {
+    margin-top: 30px;
+    gap: 20px;
+  }
+
+  .component16,
+  .component17 {
+    gap: 10px;
+  }
+
+  .img_group {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    background-color: #0f172a;
+    color: #ffffff;
+    position: relative;
+    align-items: center;
+  }
+
+  .blur-effect {
+    top: -50px;
+    left: -80px;
+    width: 300px;
+    height: 400px;
+  }
+
+  .head-5 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .frame100 {
+    gap: 15px;
+  }
+
+  .component16,
+  .component17 {
+    gap: 5px;
+  }
+
+  .img_group {
+    gap: 5px;
+  }
 }
