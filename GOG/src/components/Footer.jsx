@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-left">
         <img
-            src="../../public/assets/Images/gog.png"
+            src="./assets/Images/gog.png"
             alt="gog"
         />
           <p>
