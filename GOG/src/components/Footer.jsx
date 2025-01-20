@@ -1,7 +1,6 @@
 import React from 'react';
 import './Footer.css';
 
-
 const Footer = () => {
   return (
     <footer className="footer">
@@ -16,13 +15,13 @@ const Footer = () => {
             With Our Cutting-Edge Learning Management System.
           </p>
         </div>
+        <div class="footer-rightt">
         <div className="footer-column">
           <h3>Connect</h3>
           <ul>
             <li>Contact Us</li>
             <li>About Us</li>
             <li>Programs</li>
-            <li>FAQs</li>
           </ul>
         </div>
         <div className="footer-column">
@@ -31,26 +30,38 @@ const Footer = () => {
             <li>Contact Us</li>
             <li>About Us</li>
             <li>Programs</li>
+            <li>FAQs</li>
+            <li>Privacy&Policy</li>
           </ul>
         </div>
         <div className="footer-right">
           <h3>Get In Touch</h3>
           <div className="social-icons">
-            <i className="fab fa-linkedin"></i>
-            <i className="fab fa-twitter"></i>
-            <i className="fab fa-instagram"></i>
-            <i className="fab fa-facebook"></i>
+           <img src="./assets/Images/linkedin.png" 
+           alt="linkedin"
+            />
+            <img src="./assets/Images/twitter.png" 
+           alt="twitter"
+            />
+            <img src="./assets/Images/instagram.png" 
+           alt="instagram"
+            />
+            <img src="./assets/Images/facebook.png" 
+           alt="facebook"
+            />
           </div>
           <div className="contact-info">
-            <p>+91 9109976089</p>
-            <p>Admin@GeeksofGurukul.Com</p>
+            <h3>Contact Us</h3>
+            <p><span>📞</span>+91 9109976089</p>
+            <p>✉ admin@geeksofgurukul.com</p>
           </div>
         </div>
+      </div>
       </div>
       <p className="copyright">
             © Copyright 2024 Skillscan Edtech India Private Ltd. All Rights
             Reserved
-          </p>
+      </p>
     </footer>
   );
 };
