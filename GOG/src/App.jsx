@@ -1,9 +1,12 @@
 import './App.css'
-import About_Page from './components/About'
+import About_Page from './components/AboutPage'
+import OurTeam from './components/OurTeam'
+
+
 function App() {
   return (
     <>
-    <About_Page/>
+    <OurTeam/>
     </>
   )
 }

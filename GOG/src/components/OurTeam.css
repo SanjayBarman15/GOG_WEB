@@ -1,0 +1,112 @@
+.section-1-team {
+  width: 100%;
+  height: 1342px;
+  display: flex; /* Use flexbox to align content */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: flex-start; /* Align children from top */
+  align-items: center; /* Center items horizontally */
+}
+
+.frame36 {
+  height: 120px;
+  width: 921px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.frame-36-head h1 {
+  width: 476px;
+  height: 72px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  color: #1e293b;
+  margin: 0;
+  text-align: start;
+}
+
+.frame-36-content p {
+  width: 921px;
+  height: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #94a3b8;
+  margin: 0;
+  text-align: start;
+}
+
+/* Styles for frame-35 */
+.frame-35 {
+  width: 1340px; /* Set the width to 1340px */
+  height: 962px; /* Set the height to 962px */
+  gap: 32px; /* Set the gap between child elements inside frame-35 */
+  margin-top: 40px; /* Add some space between frame-36 and frame-35 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Grid Container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(
+    4,
+    320px
+  ); /* 4 items per row, each with width 320px */
+  grid-template-rows: repeat(
+    2,
+    428px
+  ); /* 2 items per column, each with height 428px */
+  gap: 32px 20px;
+  width: 1340px; /* Takes 100% of the container's width */
+  height: 888px; /* Takes 100% of the container's height */
+  justify-content: center; /* Center the grid horizontally */
+  align-items: center; /* Center the grid vertically */
+}
+
+/* Grid Items */
+.grid-item {
+  border-radius: 8px; /* Rounded corners */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 320px; /* Set width of each grid item */
+  height: 428px; /* Set height of each grid item */
+}
+
+.view-all {
+  width: 180px;
+  height: 42px;
+  border-radius: 18px;
+  color: #ffffff;
+  background-color: #00c14e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.view-all p {
+  width: 63px;
+  height: 16px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.45px;
+  color: #ffffff;
+}
+
+.view-all img {
+  width: 18px;
+  height: 18px;
+}
